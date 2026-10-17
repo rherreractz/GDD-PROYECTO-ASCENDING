@@ -33,5 +33,4 @@ Juego
 
 La demo tiene 4 a 5 pisos; el último contiene al jefe final.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[04 - Diálogos y Narrativa]] · [[02 - Niveles]] →

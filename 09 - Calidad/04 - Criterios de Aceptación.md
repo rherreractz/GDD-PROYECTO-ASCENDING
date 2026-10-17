@@ -24,5 +24,4 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 - [ ] El rendimiento cumple el objetivo definido.
 - [ ] No existen errores bloqueantes conocidos.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[03 - Bugs y Seguimiento]] · [[01 - Glosario]] →

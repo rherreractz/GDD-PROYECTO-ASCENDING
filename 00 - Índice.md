@@ -91,6 +91,7 @@ Cada sección explica **qué información debe escribirse**, por qué es importa
 - [[02 - Referencias e Inspiración]]
 - [[03 - Registro de Decisiones]]
 - [[04 - Historial de Versiones]]
+- [[05 - Propuestas por Aprobar|05 - Propuestas Aprobadas]]
 
 ### 11 — Biblioteca de Clasificación
 - [[00 - Biblioteca de Clasificación]]
@@ -116,6 +117,5 @@ Cada sección explica **qué información debe escribirse**, por qué es importa
 
 > [!tip] Principio de diseño
 > El GDD no tiene que ser un libro terminado antes de comenzar a desarrollar. Debe evolucionar junto con el proyecto y registrar las decisiones que realmente importan.
-
 
 > **Navegación:** [[00 - Índice]] · [[01 - Ficha del Proyecto]] →

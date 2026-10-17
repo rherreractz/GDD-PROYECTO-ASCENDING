@@ -12,13 +12,13 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 
 **Sensación buscada:** Misterio y melancolía, sin ser oscuro por completo.
 
-**Nivel de realismo:**
+**Nivel de realismo:** Estilizado (pixel art).
 
-**Formas predominantes:**
+**Formas predominantes:** Torre vertical, formas angulares y siluetas claras.
 
-**Iluminación:**
+**Iluminación:** Tenue; las sombras en el suelo comunican los ataques.
 
-**Materiales:**
+**Materiales:** Piedra, cristales y energía morada.
 
 ## Paleta de color
 
@@ -31,7 +31,7 @@ Se mantiene la **paleta morada**. Lo que se modifica son las **texturas** del ju
 
 **Colores secundarios:**
 
-**Colores para información jugable:**
+**Colores para información jugable:** Un color contrastante para las sombras de aviso de ataque (por definir en DB32).
 
 ## Reglas visuales
 
@@ -44,6 +44,5 @@ Se mantiene la **paleta morada**. Lo que se modifica son las **texturas** del ju
 Añade enlaces o imágenes dentro de la carpeta del proyecto.
 
 -
-
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Misiones y Desafíos]] · [[02 - Personajes y Animación]] →

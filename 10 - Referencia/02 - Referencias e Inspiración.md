@@ -45,5 +45,4 @@ Puedes utilizar enlaces normales:
 > [!warning] Propiedad intelectual
 > Una referencia sirve para analizar y comunicar una idea. No implica que el proyecto pueda copiar recursos protegidos.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[01 - Glosario]] · [[03 - Registro de Decisiones]] →

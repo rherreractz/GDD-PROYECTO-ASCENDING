@@ -22,16 +22,24 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 
 ### Interacción
 
+- Usar la fuente de curación.
+
 ### Combate
+
+- Ataque 1, 2 y 3 del combo (4-5 frames cada uno).
+- Bloquear.
 
 ### Daño
 
+- Recibir golpe.
+
 ### Muerte / derrota
+
+- Caída de Abby.
 
 ## Convenciones
 
 Herramientas: Pixelorama, con apoyo de pixelab.ai para generar sprites. > [!question] Pendiente
 > Convención de nombres y formato de exportación.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Dirección de Arte]] · [[03 - Entornos]] →

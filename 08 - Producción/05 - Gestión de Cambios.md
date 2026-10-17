@@ -28,5 +28,4 @@ El diseño de un videojuego cambia. Esta sección evita que las modificaciones i
 |---|---|---|---|---|
 | | | | | |
 
-
 > **Navegación:** [[00 - Índice]] · ← [[04 - Backlog del Proyecto]] · [[01 - Criterios de Calidad]] →

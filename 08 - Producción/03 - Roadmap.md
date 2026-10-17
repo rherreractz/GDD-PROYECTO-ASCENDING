@@ -40,7 +40,11 @@ El roadmap organiza el desarrollo en etapas y entregables.
 
 | Hito | Entregable | Criterio de finalización | Estado |
 |---|---|---|---|
+| Inicio de producción (19 oct) | Entorno listo | Equipo trabajando | Pendiente |
+| Piso 1 jugable (26 oct) | Piso 1 con combate | Ataque, combo y bloqueo | Pendiente |
+| Pisos 1-3 (2 nov) | 3 pisos con enemigos | 4 tipos de enemigo | Pendiente |
+| 5 pisos y jefe (8 nov) | Recorrido completo | Se llega al cliffhanger | Pendiente |
+| Congelar contenido (10 nov) | Sin funciones nuevas | Solo correcciones | Pendiente |
 | Demo 20 nov | Juego jugable | 10-15 min estables | Pendiente |
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Roles y Responsabilidades]] · [[04 - Backlog del Proyecto]] →

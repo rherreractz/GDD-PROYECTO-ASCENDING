@@ -36,5 +36,4 @@ Registra problemas encontrados durante las pruebas y permite darles seguimiento.
 |---|---|---|---|---|
 | | | | | |
 
-
 > **Navegación:** [[00 - Índice]] · ← [[02 - Pruebas]] · [[04 - Criterios de Aceptación]] →

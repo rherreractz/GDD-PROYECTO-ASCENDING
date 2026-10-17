@@ -6,6 +6,10 @@ Las misiones y desafíos convierten las mecánicas en objetivos concretos para e
 
 ## Plantilla de misión
 
+Misión principal: subir la torre y encontrar a Dante.
+Desafío por piso: derrotar las 4 hordas.
+Sin misiones secundarias.
+
 ### Nombre
 
 **Tipo:** Principal / Secundaria / Opcional
@@ -33,6 +37,5 @@ Las misiones y desafíos convierten las mecánicas en objetivos concretos para e
 **Personajes relacionados:**
 
 **Nivel relacionado:**
-
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Objetos y Coleccionables]] · [[01 - Dirección de Arte]] →

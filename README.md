@@ -6,7 +6,6 @@
 
 Creación y desarrollo de esta guía integral de GDD en español para la documentación y desarrollo de proyectos de videojuegos.
 
-
 ## Características
 
 - Estructura profesional y modular.

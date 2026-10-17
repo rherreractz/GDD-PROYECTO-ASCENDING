@@ -11,7 +11,7 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 | Mover | WASD | | | |
 | Interactuar | E | | | |
 | Ataque principal | | Clic izquierdo | | |
-| Bloquear | | Clic derecho *(por confirmar)* | | |
+| Bloquear | | Clic derecho | | |
 | Saltar | | | | |
 | Menú | Esc | | | |
 
@@ -28,9 +28,7 @@ No habrá reasignación. Solo teclado y mouse.
 
 ## Entrada y retroalimentación
 
-> [!tip] Propuesta (por aprobar)
-> E para interactuar con la fuente y Esc para pausar.
-> Sin salto ni esquiva por ahora.
-
+E para interactuar con la fuente y Esc para pausar.
+Sin salto ni esquiva por ahora.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Sistemas]] · [[05 - Progresión]] →

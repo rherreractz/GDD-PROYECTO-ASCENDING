@@ -25,15 +25,17 @@ Elementos:
 - Imagen del personaje principal en la esquina superior izquierda.
 - Controles mostrados en la parte inferior.
 
+Prioridad visual: 1. Vida y stamina. 2. Enemigos y sus sombras. 3. Controles de la parte inferior.
+
 ## Estados
 
-Documenta estados normales, advertencias, daño, éxito, error y bloqueo.
+Vida baja: la barra parpadea. Stamina baja: la barra cambia de color. Bloqueo: efecto breve en el personaje.
 
 ## Convenciones
 
-**Tipografía:**
+**Tipografía:** Una fuente pixel art legible (por definir).
 
-**Iconografía:**
+**Iconografía:** Retrato de Abby y teclas/ratón para los controles.
 
 **Tamaños mínimos:**
 
@@ -50,6 +52,5 @@ Documenta estados normales, advertencias, daño, éxito, error y bloqueo.
 - Mapa
 - Victoria
 - Derrota
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Entornos]] · [[05 - Audio y Música]] →

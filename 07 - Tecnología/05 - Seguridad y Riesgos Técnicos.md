@@ -8,25 +8,21 @@ Documenta riesgos técnicos y medidas para reducir fallos, pérdida de datos o a
 
 | Riesgo | Probabilidad | Impacto | Mitigación |
 |---|---|---|---|
-| | | | |
+| Poco tiempo (22 días) | Alta | Alto | Recortar contenido según el alcance |
+| Bugs en la demo | Media | Alto | Reservar del 10 al 20 de noviembre solo para pruebas |
+| Conflictos al integrar ramas | Media | Medio | Pull Request a `dev` y revisión |
+| Arte o enemigos sin terminar | Media | Alto | Reutilizar sprites con cambio de color |
 
 ## Datos sensibles
 
-¿El juego almacena información personal, cuentas, estadísticas en línea u otros datos?
+No.
 
 ## Multijugador
 
-Si existe conexión en red, documentar:
-
-- Autenticación
-- Validación
-- Autoridad del servidor
-- Comunicación
-- Protección contra manipulación
+No hay red ni multijugador.
 
 ## Recuperación
 
-¿Qué ocurre ante corrupción de datos, pérdida de conexión o fallo del programa?
-
+Se vuelve a abrir la demo; tener una copia de respaldo en otra laptop.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Datos y Persistencia]] · [[01 - Alcance]] →

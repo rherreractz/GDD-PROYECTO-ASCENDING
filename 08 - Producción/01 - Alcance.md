@@ -39,5 +39,4 @@ El primer piso con arte final, combate pulido y su jefe.
 2. Pisos adicionales.
 3. Cinemática.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[05 - Seguridad y Riesgos Técnicos]] · [[02 - Roles y Responsabilidades]] →

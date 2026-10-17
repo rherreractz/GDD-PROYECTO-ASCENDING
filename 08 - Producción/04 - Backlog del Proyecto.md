@@ -33,5 +33,4 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 Prioriza aquello que desbloquea otras tareas o valida primero las partes más riesgosas del proyecto.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →

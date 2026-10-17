@@ -12,17 +12,16 @@ Documenta las entidades controladas por el juego y su comportamiento.
 - No son humanos.
 - 1 jefe final: Dante.
 
-> [!tip] Propuesta (por aprobar)
-> | Enemigo | Idea | Entra en |
-> |---|---|---|
-> | Larva del Abismo | Pequeña, sale en grupo de 3-4, golpe débil | Piso 1 |
-> | Acechador | Cuerpo a cuerpo rápido, ataque simple | Piso 1 |
-> | Bruto | Lento, golpe fuerte con sombra grande | Piso 2 |
-> | Embestidor | Carga en línea recta; la sombra se alarga antes | Piso 3 |
-> | Guardián | Escudo al frente; hay que rodearlo o esperar | Piso 4 |
-> | Espectro | Ataque a distancia (el más recortable) | Piso 5 |
->
-> Las variantes se hacen cambiando el color según el piso.
+| Enemigo | Idea | Entra en |
+|---|---|---|
+| Larva del Abismo | Pequeña, sale en grupo de 3-4, golpe débil | Piso 1 |
+| Acechador | Cuerpo a cuerpo rápido, ataque simple | Piso 1 |
+| Bruto | Lento, golpe fuerte con sombra grande | Piso 2 |
+| Embestidor | Carga en línea recta; la sombra se alarga antes | Piso 3 |
+| Guardián | Escudo al frente; hay que rodearlo o esperar | Piso 4 |
+| Espectro | Ataque a distancia (el más recortable) | Piso 5 |
+
+Las variantes se hacen cambiando el color según el piso.
 
 ### Plantilla
 
@@ -71,6 +70,5 @@ Patrullar → Detectar → Perseguir → Atacar
 **Condiciones:**
 
 **Recompensas / información:**
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →

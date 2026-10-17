@@ -28,5 +28,9 @@ Define qué significa que una característica esté correctamente terminada.
 
 Una característica se considera terminada cuando:
 
+- Funciona como lo describe el GDD.
+- Fue probada por una persona distinta a quien la hizo.
+- No tiene bugs críticos conocidos.
+- Está integrada en `dev`.
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Gestión de Cambios]] · [[02 - Pruebas]] →

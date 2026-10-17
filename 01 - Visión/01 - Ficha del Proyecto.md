@@ -10,7 +10,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 |---|---|
 | **Nombre del proyecto** | Abby´s Tower |
 | **Nombre clave** | Ascending |
-| **Versión del GDD** | 0.4.0 |
+| **Versión del GDD** | 0.6.0 |
 | **Estado del proyecto** | Concepto / **Preproducción** (diseño, arte y planeación) |
 | **Equipo** | Rodrigo Herrera, Gabriel García, Francisco Uc, Ricardo Cetina, Karla Damaris |
 | **Responsable del proyecto** | Rodrigo Herrera (líder) |
@@ -63,6 +63,5 @@ Unity (C#) · Pixelorama (sprites, paleta DawnBringer 32) · pixelab.ai (apoyo p
 ## Criterio de éxito del proyecto
 
 Presentar el **20 de noviembre de 2026** una demo jugable de **10 a 15 minutos o más**, con muy pocos errores, que muestre el combate, un recorrido por 4 a 5 pisos y un jefe final que termine en cliffhanger.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →

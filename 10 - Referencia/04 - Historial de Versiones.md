@@ -13,6 +13,8 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | 0.3.0 | 2026-10-16 | Bloqueo (8 % y stamina), combo de 3, fuentes de curación, HUD, presentación en laptop a 1080p, padre Angelo | Equipo |
 | 0.4.0 | 2026-10-16 | Propuestas de valores, enemigos, pisos 1-5, Dante y audio (por aprobar) | Equipo |
 | 0.4.1 | 2026-10-16 | Descripción de audio e instrumentación (teclado, órgano y violín) | Equipo |
+| 0.5.0 | 2026-10-16 | Propuestas para las secciones restantes y lista de propuestas por aprobar | Equipo |
+| 0.6.0 | 2026-10-16 | Propuestas aprobadas por el equipo e integradas como definidas | Equipo |
 
 ## Convención sugerida
 
@@ -22,6 +24,5 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 
 > [!example] Ejemplo
 > `1.2.3` → versión mayor 1, versión menor 2, corrección 3.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Registro de Decisiones]] · [[00 - Índice]] →

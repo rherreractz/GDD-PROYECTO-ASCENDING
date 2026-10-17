@@ -29,5 +29,4 @@ Define quién es responsable de cada área y evita que tareas importantes queden
 
 Cada entregable importante debe tener una persona responsable de coordinarlo, aunque varias personas participen en su elaboración.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[01 - Alcance]] · [[03 - Roadmap]] →

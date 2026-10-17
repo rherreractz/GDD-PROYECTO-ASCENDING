@@ -6,28 +6,22 @@ Define qué información necesita conservar el juego y cómo se estructura.
 
 ## Datos persistentes
 
-- Progreso
-- Configuración
-- Inventario
-- Estadísticas
-- Desbloqueos
-- Otros
+- Configuración de volumen. No hay progreso, inventario ni desbloqueos.
 
 ## Modelo de datos
 
-Describe las entidades y relaciones.
+Datos de enemigos, hordas y valores de combate definidos en un archivo o en el editor (por definir).
 
 ## Formato
 
-**Formato de guardado:**
+**Formato de guardado:** Por definir.
 
-**Ubicación:**
+**Ubicación:** Por definir.
 
-**Versionado de datos:**
+**Versionado de datos:** No aplica.
 
 ## Migraciones
 
-¿Qué ocurre si cambia la estructura de los datos entre versiones?
-
+No aplica: no hay guardados que migrar.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Requisitos Técnicos]] · [[05 - Seguridad y Riesgos Técnicos]] →

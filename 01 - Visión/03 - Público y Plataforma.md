@@ -10,20 +10,20 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 **Experiencia esperada:** Casual a intermedia.
 
-**Intereses relevantes:**
+**Intereses relevantes:** Videojuegos de acción, pixel art y combate tipo soulslike.
 
-**Conocimientos previos necesarios:**
+**Conocimientos previos necesarios:** Ninguno; el tutorial enseña los controles.
 
 ## Plataforma
 
 | Elemento | Decisión |
 |---|---|
 | Plataforma principal | PC (Windows) |
-| Plataformas secundarias | |
+| Plataformas secundarias | Ninguna |
 | Método de entrada | Teclado y mouse |
 | Resolución objetivo | 1920x1080 (1080p) |
 | Relación de aspecto | 16:9 |
-| Rendimiento objetivo | FPS |
+| Rendimiento objetivo | 60 FPS |
 | Conexión requerida | No |
 
 ## Restricciones de plataforma
@@ -49,6 +49,5 @@ Prototipo académico presentado en evento escolar (20 de noviembre de 2026).
 - [ ] Rendimiento considerado
 - [ ] Resoluciones consideradas
 - [ ] Guardado compatible
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Visión del Juego]] · [[04 - Pilares de Diseño]] →

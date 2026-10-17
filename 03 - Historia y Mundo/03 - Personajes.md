@@ -50,8 +50,9 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Habilidades:** Espada y bloqueo.
 
-> [!question] Pendiente
-> Edad, personalidad, frases típicas y debilidades.
+Personalidad: reservada y decidida a pesar del miedo.
+Debilidad: depende de su stamina; no puede bloquear sin parar.
+Frases: pocas y breves, tono serio y melancólico.
 
 ### Antagonista — Dante (jefe final)
 
@@ -59,21 +60,19 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Función narrativa:** Cliffhanger de la demo.
 
-> [!tip] Propuesta (por aprobar)
-> Humanoide cubierto de sombra; reutiliza el esqueleto de animación de Abby.
-> Ataques: combo de 3 (espejo del de Abby), embestida y golpe de área señalado con sombra.
-> Al 50 % de vida acelera sus ataques.
+Humanoide cubierto de sombra; reutiliza el esqueleto de animación de Abby.
+Ataques: combo de 3 (espejo del de Abby), embestida y golpe de área señalado con sombra.
+Al 50 % de vida acelera sus ataques.
 
 ### Personajes secundarios
 
 - **Dante:** hermano de Abby, entró a la torre y nunca volvió. Es también el jefe final. (Nombre confirmado; descartado "Kael".)
 - **Angelo:** padre de Abby; su funeral abre la cinemática.
-- **Capitán:** da el discurso de 2035. > [!tip] Propuesta (por aprobar)
-> Capitán Elías Vargas. No hacen falta más personajes en la cinemática.
+- **Capitán:** da el discurso de 2035. 
+Capitán Elías Vargas. No hacen falta más personajes en la cinemática.
 
 ## NPC
 
 Documenta qué NPC existen, qué hacen y cómo interactúan con el jugador.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →

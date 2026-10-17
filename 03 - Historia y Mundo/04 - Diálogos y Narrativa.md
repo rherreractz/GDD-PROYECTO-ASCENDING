@@ -12,17 +12,10 @@ Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
 
 ## Estructura de diálogo
 
-### Escena / Conversación
-
-**Participantes:**
-
-**Objetivo de la conversación:**
-
-**Contexto:**
-
-**Opciones del jugador:**
-
-**Consecuencias:**
+Cinemática inicial: funeral de Angelo y discurso del capitán (2035).
+Participantes: Abby, el capitán y Angelo (ausente).
+Sin opciones del jugador.
+Final: indicio de que el jefe es Dante.
 
 ## Tono
 
@@ -32,13 +25,12 @@ Serio y melancólico, sin llegar a oscuro.
 
 | Decisión | Opciones | Consecuencia |
 |---|---|---|
-| | | |
+| — | La demo no tiene decisiones del jugador | — |
 
 ## Localización
 
 ¿El juego tendrá diferentes idiomas?
 
 Idiomas previstos: Español.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Personajes]] · [[01 - Estructura del Contenido]] →

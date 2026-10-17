@@ -6,29 +6,28 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 ## Guardado
 
-**Tipo:** Por definir (en una demo de 10-15 minutos puede no existir guardado).
+**Tipo:** Sin guardado en la demo.
 
-**Cuándo se guarda:**
+**Cuándo se guarda:** Nunca.
 
-**Qué datos se guardan:**
+**Qué datos se guardan:** Solo la configuración de volumen.
 
-**Cantidad de ranuras:**
+**Cantidad de ranuras:** 0.
 
-**Qué ocurre si el guardado falla:**
+**Qué ocurre si el guardado falla:** Se usan los volúmenes por defecto.
 
 ## Configuración
 
 | Categoría | Opciones |
 |---|---|
-| Audio | |
-| Video | |
-| Controles | |
-| Accesibilidad | |
-| Jugabilidad | |
+| Audio | Volumen general y de música |
+| Video | Pantalla completa |
+| Controles | Solo se muestran; sin reasignación |
+| Accesibilidad | — |
+| Jugabilidad | — |
 
 ## Restablecimiento
 
-¿Qué opciones pueden volver a valores predeterminados?
-
+Los volúmenes vuelven a sus valores por defecto.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Accesibilidad]] · [[01 - Arquitectura Técnica]] →

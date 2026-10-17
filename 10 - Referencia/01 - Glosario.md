@@ -11,6 +11,10 @@ Centraliza términos técnicos, de diseño y propios del universo del videojuego
 | Sistema | Conjunto de componentes y reglas que trabajan juntos. |
 | MVP | Producto Mínimo Viable. |
 | Vertical Slice | Muestra pequeña pero representativa del producto final. |
+| Stamina | Recurso que se gasta al bloquear y se regenera con el tiempo. |
+| Horda | Grupo de enemigos que aparece en un piso. |
+| Piso | Nivel de la torre. |
+| Fuente | Punto que restaura la vida al 100 %. |
 | 2.5D | Sprites 2D que se mueven en un espacio 3D. |
 | Soulslike | Combate de ritmo lento y legible, con castigo por errores. |
 | DB32 | Paleta DawnBringer 32. |
@@ -18,6 +22,5 @@ Centraliza términos técnicos, de diseño y propios del universo del videojuego
 ## Convenciones de nombres
 
 Documenta aquí términos que el equipo debe escribir siempre de la misma manera.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Criterios de Aceptación]] · [[02 - Referencias e Inspiración]] →

@@ -54,5 +54,4 @@ Mezcla de sprites pixel art en espacio 3D, estructura de torre por pisos y narra
 
 > Esta sección es especialmente importante para evitar que el proyecto crezca sin control.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[01 - Ficha del Proyecto]] · [[03 - Público y Plataforma]] →

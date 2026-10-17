@@ -8,13 +8,13 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 **Motor:** Unity.
 
-**Versión:**
+**Versión:** Por confirmar.
 
-**Renderizado:**
+**Renderizado:** Por confirmar.
 
-**Física:**
+**Física:** Por confirmar.
 
-**Sistema de entrada:**
+**Sistema de entrada:** Teclado y mouse.
 
 ## Lenguajes
 
@@ -32,12 +32,11 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 ## Dependencias
 
-Lista librerías, paquetes, plugins o servicios externos.
+Por confirmar con el equipo.
 
 ## Convenciones del proyecto
 
 - Control de versiones: ramas `main` (estable) → `dev` (integración) → una rama por tarea, con Pull Request a `dev`.
 - Formato de assets: PNG para sprites.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Arquitectura Técnica]] · [[03 - Requisitos Técnicos]] →

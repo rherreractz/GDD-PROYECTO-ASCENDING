@@ -41,5 +41,4 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 - Todos los pisos comparten la base y varían elementos y colores.
 - El límite del área jugable se muestra de forma distinta en cada nivel (visualmente, no en colisión).
 
-
 > **Navegación:** [[00 - Índice]] · ← [[01 - Premisa y Trama]] · [[03 - Personajes]] →

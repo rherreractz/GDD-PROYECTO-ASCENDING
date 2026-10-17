@@ -10,8 +10,7 @@ Una torre misteriosa y melancólica, el Abismo que se lo traga todo, aparece en 
 
 ## Sinopsis
 
-> [!question] Pendiente
-> Sinopsis completa y qué ocurre en el cliffhanger final.
+En 2030 aparece una torre que se traga todo lo que entra. En 2035, tras el funeral de su padre Angelo y el discurso de un capitán, Abby decide subir para encontrar a su hermano Dante, que entró y nunca volvió. Piso tras piso se enfrenta a criaturas del Abismo hasta llegar al último, donde un jefe le muestra un indicio de que podría ser Dante.
 
 ## Estructura narrativa
 
@@ -27,10 +26,9 @@ Abby entra a la torre. Propuesta de tutorial: la expedición derrotada en el pis
 
 Abby llega al último piso y enfrenta al jefe final. Al terminar se da un **indicio de que el enemigo es Dante**, su hermano. La demo termina en un **cliffhanger**.
 
-> [!tip] Propuesta (por aprobar)
-> Al bajar la vida del jefe a cero, la pelea se interrumpe y el jefe cae.
-> Se ve una pieza de Dante (su chaqueta o un colgante) y el jefe dice "Abby..." en texto.
-> Corte a negro.
+Al bajar la vida del jefe a cero, la pelea se interrumpe y el jefe cae.
+Se ve una pieza de Dante (su chaqueta o un colgante) y el jefe dice "Abby..." en texto.
+Corte a negro.
 
 ## Eventos principales
 
@@ -48,6 +46,5 @@ La demo termina en **cliffhanger**.
 
 > [!warning] Spoilers
 > Si el documento será compartido con estudiantes o colaboradores, considera separar información sensible de la documentación general.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[07 - Reglas y Estados del Juego]] · [[02 - Mundo]] →

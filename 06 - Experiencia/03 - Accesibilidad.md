@@ -21,7 +21,6 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 
 ## Consideraciones
 
-Documenta cualquier necesidad específica derivada del diseño del juego.
-
+Prioridad: volumen independiente de música y efectos, controles siempre visibles y sombras con forma clara (no solo color). Subtítulos solo si la cinemática tiene voz.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - UI y Menús]] · [[04 - Guardado y Configuración]] →

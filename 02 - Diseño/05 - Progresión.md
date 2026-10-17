@@ -16,18 +16,15 @@ Describe las etapas principales del juego.
 
 ## Progresión del jugador
 
-¿Qué aprende el jugador y en qué orden?
+1. Mover y atacar (piso 1).
+2. Encadenar el combo y leer las sombras.
+3. Bloquear en el momento justo y gestionar la stamina.
+4. Usar la fuente de curación.
+5. Enfrentar al jefe con todo lo aprendido.
 
 ## Progresión del personaje
 
-¿Qué mejora el personaje?
-
-- Vida
-- Daño
-- Habilidades
-- Equipo
-- Recursos
-- Conocimiento
+En la demo **no hay mejoras permanentes**: Abby mantiene vida, daño y habilidades durante todo el recorrido. Lo que progresa es el conocimiento del jugador.
 
 ## Desbloqueos
 
@@ -42,7 +39,9 @@ La dificultad aumenta al introducir un enemigo nuevo por piso (ver Enemigos y NP
 
 ## Curva de aprendizaje
 
-¿Qué debe dominar el jugador antes de introducir el siguiente concepto?
-
+Piso 1: mover y atacar antes de introducir el bloqueo.
+Piso 2: bloqueo antes de enemigos con golpes fuertes.
+Piso 3: lectura de sombras alargadas (Embestidor).
+Piso 4: rodear enemigos con escudo.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →

@@ -22,6 +22,8 @@ Comprueban si los jugadores entienden y pueden utilizar el sistema.
 
 Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
+Casos mínimos: completar el recorrido de 5 pisos sin errores, bloquear hasta quedarse sin stamina, usar la fuente de curación, morir y reintentar, y jugar 15 minutos seguidos.
+
 ## Caso de prueba
 
 ### Nombre
@@ -41,6 +43,5 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 **Resultado obtenido:**
 
 **Estado:** Correcto / Incorrecto
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Criterios de Calidad]] · [[03 - Bugs y Seguimiento]] →

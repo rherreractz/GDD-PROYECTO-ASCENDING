@@ -42,7 +42,9 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 ## Relaciones entre sistemas
 
-Describe qué sistemas dependen de otros y qué información intercambian.
-
+Controles → Combate (ataque, combo, bloqueo) → Vida y stamina → HUD.
+IA de enemigos → Combate → Vida de Abby.
+Niveles → IA (oleadas) y fuentes de curación → Vida.
+Estados del juego → Cinemática, Jugando, Derrota, Cliffhanger.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mecánicas]] · [[04 - Controles]] →

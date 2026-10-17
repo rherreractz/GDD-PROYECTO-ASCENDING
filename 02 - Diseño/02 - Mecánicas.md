@@ -49,22 +49,20 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Reglas:** Animación de 4-5 frames. Daño cuerpo a cuerpo con alcance corto. Es la única arma de la demo. Combo de **3 ataques** con clics seguidos.
 
-> [!tip] Propuesta (por aprobar)
-> Daño del combo: 10 / 10 / 15.
-> Ventana entre clics: 0.6 s; si se pasa, el combo vuelve a empezar.
+Daño del combo: 10 / 10 / 15.
+Ventana entre clics: 0.6 s; si se pasa, el combo vuelve a empezar.
 
 ### Mecánica 02 — Bloqueo y lectura de sombras
 
 **Propósito:** Dar legibilidad al combate al estilo soulslike.
 
-**Entrada:** Clic derecho (por confirmar).
+**Entrada:** Clic derecho.
 
 **Reglas:** Las sombras en el suelo indican cuándo atacar y cuándo bloquear. Mientras bloquea, Abby recibe solo el **8 %** del daño del ataque, pero **no es inmune**. Bloquear **gasta stamina**, por lo que no se puede bloquear indefinidamente.
 
-> [!tip] Propuesta (por aprobar)
-> Stamina total: 100. Cada golpe bloqueado gasta 20.
-> Atacar no gasta stamina.
-> Se regenera a 25 por segundo tras 1 s sin bloquear.
+Stamina total: 100. Cada golpe bloqueado gasta 20.
+Atacar no gasta stamina.
+Se regenera a 25 por segundo tras 1 s sin bloquear.
 
 ### Mecánica 03 — Movimiento
 
@@ -77,6 +75,5 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 - Fuentes de curación: en ciertos puntos de los pisos, restauran el 100 % de la vida.
 - Cámara que sigue al jugador.
 - Límites del área jugable (muros con cuadrícula en el prototipo de escenario).
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

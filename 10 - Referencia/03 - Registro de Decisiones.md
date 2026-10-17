@@ -48,9 +48,8 @@ Esta sección conserva las decisiones importantes del proyecto y el razonamiento
 | 2026-10-16 | Curación | Fuentes en ciertos puntos que restauran 100 % de la vida | Equipo |
 | 2026-10-16 | HUD | Vida, stamina, retrato de Abby arriba a la izquierda y controles abajo | Equipo |
 | 2026-10-16 | Cinemática | Va dentro de la demo | Equipo |
-| 2026-10-16 | Propuestas | Valores de stamina, daño, enemigos, pisos, Dante y audio quedan como propuesta hasta que el equipo los apruebe | Equipo |
+| 2026-10-16 | Aprobación | El equipo aprobó las propuestas de valores, enemigos, pisos, Dante, audio, interfaz, tecnología y producción | Equipo |
 | 2026-10-16 | Presentación | Laptop propia del equipo, 1080p | Equipo |
 | 2026-10-16 | Personajes | El padre se llama Angelo | Equipo |
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →

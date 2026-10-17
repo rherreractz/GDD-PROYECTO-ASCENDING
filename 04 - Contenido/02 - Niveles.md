@@ -16,14 +16,13 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Cámara:** Sigue al jugador.
 
-> [!tip] Propuesta (por aprobar)
-> | Piso | Color dominante | Enemigo nuevo |
-> |---|---|---|
-> | 1 | Violeta apagado | Larva del Abismo y Acechador |
-> | 2 | Índigo | Bruto |
-> | 3 | Magenta oscuro | Embestidor |
-> | 4 | Morado azulado | Guardián |
-> | 5 | Morado muy oscuro con detalles dorados | Jefe final (y Espectro, si hay tiempo) |
+| Piso | Color dominante | Enemigo nuevo |
+|---|---|---|
+| 1 | Violeta apagado | Larva del Abismo y Acechador |
+| 2 | Índigo | Bruto |
+| 3 | Magenta oscuro | Embestidor |
+| 4 | Morado azulado | Guardián |
+| 5 | Morado muy oscuro con detalles dorados | Jefe final (y Espectro, si hay tiempo) |
 
 La base de cada piso es la misma; cambian los elementos (por ejemplo cristales o grietas).
 
@@ -66,6 +65,5 @@ Inicio → Zona A → Desafío → Zona B → Recompensa → Final
 - El desafío corresponde al nivel de progresión.
 - Existe retroalimentación suficiente.
 - El jugador entiende por qué tuvo éxito o fracaso.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Estructura del Contenido]] · [[03 - Enemigos y NPC]] →

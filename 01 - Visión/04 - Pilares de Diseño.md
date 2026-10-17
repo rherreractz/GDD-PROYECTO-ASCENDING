@@ -34,5 +34,4 @@ Antes de incorporar una característica importante, preguntar:
 > [!warning] Evitar
 > Convertir los pilares en frases genéricas como “que sea divertido”. Deben describir decisiones concretas de diseño.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[03 - Público y Plataforma]] · [[01 - Jugabilidad]] →

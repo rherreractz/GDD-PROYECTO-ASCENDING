@@ -20,12 +20,15 @@ Describe el ciclo que se repite durante la experiencia.
 |---|---|---|
 | Moverse | Posicionarse y evadir | Evitar daño |
 | Atacar con espada (clic izquierdo) | Dañar enemigos cuerpo a cuerpo | Reducir su vida |
-| Bloquear (clic derecho, por confirmar) | Reducir el daño de un ataque | Daño reducido, no inmunidad |
+| Bloquear (clic derecho) | Reducir el daño de un ataque | Daño reducido, no inmunidad |
 
 ## Experiencia segundo a segundo
 
+Cinemática inicial → tutorial corto con avisos en pantalla (mover, atacar, combo, bloquear, fuente de curación) → piso 1.
+En los primeros 2 minutos el jugador aprende a mover a Abby y a derrotar a la primera horda.
+
 > [!question] Pendiente
-> Tutorial por confirmar (propuesta: la expedición derrotada en el piso 20) y qué hace el jugador en los primeros 2 minutos. La cinemática inicial va dentro de la demo.
+> Confirmar si el tutorial será la expedición derrotada.
 
 ## Experiencia minuto a minuto
 
@@ -45,20 +48,14 @@ Que la vida de Abby llegue a cero.
 
 ## Ritmo
 
-Describe cómo alternan:
-
-- Exploración
-- Acción
-- Descanso
-- Desafío
-- Recompensa
-- Historia
+Cada piso alterna: combate (4 hordas) → descanso en la fuente de curación → siguiente piso.
+La historia aparece al inicio (cinemática) y al final (jefe y cliffhanger).
+No hay exploración libre: la cámara sigue al jugador dentro del área del piso.
 
 ## Principios de interacción
 
 - Las sombras siempre anuncian los ataques.
 - Cada ataque tiene una señal visual antes de golpear.
 - Los límites del área jugable se distinguen claramente.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Pilares de Diseño]] · [[02 - Mecánicas]] →

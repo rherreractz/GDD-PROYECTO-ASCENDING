@@ -12,28 +12,24 @@ Inicio → Menú → Nueva partida → Tutorial → Juego → Pausa → Juego �
 
 ## Primeros minutos
 
-Responsables de UX: Ricardo Cetina y Karla Damaris. > [!question] Pendiente
-> Qué descubre el jugador en los primeros minutos.
+Responsables de UX: Ricardo Cetina y Karla Damaris. 
+Descubre los controles con los avisos del tutorial y aprende a leer las sombras al enfrentar la primera horda.
 
 ## Retroalimentación
 
-Para cada acción importante define:
-
-**Entrada → Respuesta visual → Respuesta sonora → Resultado**
+Clic izquierdo → animación de espada → sonido de corte → daño al enemigo.
+Clic derecho → postura de bloqueo → sonido metálico → daño reducido y gasto de stamina.
 
 ## Fricción intencional
 
-¿Qué dificultad forma parte del diseño y qué dificultad es simplemente mala experiencia de usuario?
+Forma parte del diseño: reaccionar a las sombras y administrar stamina.
+No debe haber: ataques invisibles, controles ocultos ni dudas sobre qué tecla usar.
 
 ## Descubrimiento
 
-¿Cómo sabe el jugador:
-
-- Qué hacer?
-- Dónde ir?
-- Qué puede interactuar?
-- Qué ocurrió?
-- Por qué ganó o perdió?
-
+Qué hacer: los avisos del tutorial y la barra de controles inferior.
+Dónde ir: la cámara sigue al jugador y las puertas se marcan al limpiar las hordas.
+Qué interactuar: la fuente brilla.
+Por qué perdió: pantalla de derrota.
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Audio y Música]] · [[02 - UI y Menús]] →
