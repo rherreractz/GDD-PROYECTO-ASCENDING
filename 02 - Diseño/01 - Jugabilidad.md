@@ -1,61 +1,38 @@
 # Jugabilidad
 
-## Descripción de la sección
+## Bucle principal
 
-La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evoluciona la experiencia**.
+```mermaid
+flowchart LR
+  A[Entrar al piso] --> B[Seguir la luz morada] --> C[Horda: leer avisos,<br>atacar, bloquear, esquivar]
+  C --> D{¿Quedan hordas?}
+  D -- sí --> B
+  D -- no --> E[Se abre la salida] --> F[Siguiente piso]
+  C -. vida baja .-> G[Fuente de curación] -.-> B
+```
 
-## Bucle principal de juego
+1. **Entrar.** Una toma aérea baja hasta Abby y ella comenta el lugar.
+2. **Buscar la horda.** Un haz de luz morada marca la siguiente; el HUD indica cuántas faltan.
+3. **Pelear.** Al pisar la arena, la horda sale de grietas en el suelo: 5 enemigos, hasta 4 a la vez.
+4. **Reponerse.** Cada piso tiene al menos una fuente que cura toda la vida, una sola vez.
+5. **Salir.** Con las 4 hordas derrotadas se abre la salida y aparece el resumen del piso.
 
-Describe el ciclo que se repite durante la experiencia.
+## Bucle de combate (segundo a segundo)
 
-**Ejemplo conceptual:**
+| Momento | Qué ve el jugador | Qué decide |
+| --- | --- | --- |
+| Aviso | Franja o anillo rojo en el suelo, el enemigo se agacha | Salir de la marca, bloquear o impulsarse a través |
+| Golpe | El enemigo se lanza | Si bloqueó: pierde `20` de stamina y recibe `8 %`. Si esquivó a tiempo: esquiva perfecta |
+| Recuperación | El enemigo queda quieto de `0,7` a `1,25 s` | Ventana para el combo `10 / 10 / 15` |
 
-`Explorar → Encontrar desafío → Resolver → Obtener recompensa → Mejorar → Explorar`
+## Estructura de la demo
 
-**Bucle del proyecto:** `Entrar al piso → Combatir 4 hordas (leer sombras, atacar, bloquear) → Subir al siguiente piso → ... → Jefe final (Dante) → Cliffhanger`
+| Tramo | Escenas | Función |
+| --- | --- | --- |
+| Prólogo | `Expedicion`, `Intro` | Enseñar los controles con Dante y contar por qué Abby sube |
+| Entrada | `Exterior` | Caminar por Cala Sombría hasta la torre, sin combate |
+| Ascenso | `Diorama` a `Nevado` | Siete pisos con 4 hordas y la Biblioteca con 1 |
+| Clímax | `Cima` | 4 hordas y Dante |
+| Cierre | `Final` | Escena sin enemigos, cliffhanger y créditos |
 
-## Acciones principales del jugador
-
-| Acción | Propósito | Resultado |
-|---|---|---|
-| Moverse | Posicionarse y evadir | Evitar daño |
-| Atacar con espada (clic izquierdo) | Dañar enemigos cuerpo a cuerpo | Reducir su vida |
-| Bloquear (clic derecho) | Reducir el daño de un ataque | Daño reducido, no inmunidad |
-
-## Experiencia segundo a segundo
-
-Cinemática inicial → tutorial corto con avisos en pantalla (mover, atacar, combo, bloquear, fuente de curación) → piso 1.
-En los primeros 2 minutos el jugador aprende a mover a Abby y a derrotar a la primera horda.
-
-> [!question] Pendiente
-> Confirmar si el tutorial será la expedición derrotada.
-
-## Experiencia minuto a minuto
-
-Entrar a un piso, enfrentar 4 hordas y avanzar al siguiente; al final, el jefe.
-
-## Experiencia a largo plazo
-
-Ver cómo cambia cada piso y avanzar en la historia de Abby y Dante. En la demo no hay progresión larga.
-
-## Condición de victoria
-
-Eliminar las 4 hordas del piso y, al final, enfrentar al jefe final.
-
-## Condición de derrota
-
-Que la vida de Abby llegue a cero.
-
-## Ritmo
-
-Cada piso alterna: combate (4 hordas) → descanso en la fuente de curación → siguiente piso.
-La historia aparece al inicio (cinemática) y al final (jefe y cliffhanger).
-No hay exploración libre: la cámara sigue al jugador dentro del área del piso.
-
-## Principios de interacción
-
-- Las sombras siempre anuncian los ataques.
-- Cada ataque tiene una señal visual antes de golpear.
-- Los límites del área jugable se distinguen claramente.
-
-> **Navegación:** [[00 - Índice]] · ← [[04 - Pilares de Diseño]] · [[02 - Mecánicas]] →
+Valores exactos en [[02 - Mecánicas]]; composición de cada piso en [[02 - Niveles]].

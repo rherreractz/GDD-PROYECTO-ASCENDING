@@ -1,27 +1,12 @@
-# Biblioteca de Clasificación del Videojuego
+# Biblioteca de clasificación
 
-> **Creada por el Ing. Luis Fernando Villafaña Rejón.**
+Dónde cae Abby's Tower en cada eje de clasificación. Cada nota da la definición breve y la justificación con lo que el juego hace.
 
-Esta sección funciona como una **biblioteca de consulta integrada al GDD**. El objetivo es que el equipo pueda tomar decisiones de clasificación sin salir del documento.
-
-## Consulta rápida
-
-- [[01 - Géneros]]
-- [[02 - Subgéneros y Combinaciones]]
-- [[03 - Plataformas y Consolas]]
-- [[04 - Perspectivas y Cámaras]]
-- [[05 - Modos de Juego]]
-- [[06 - Clasificaciones y Etiquetas]]
-
-> [!tip] Antes de elegir
-> Lee la descripción de las opciones que parezcan cercanas y compara sus características con las mecánicas reales de tu videojuego.
-
-## Ruta recomendada
-
-`Género → Subgénero → Plataforma → Perspectiva/Cámara → Modo de juego → Características`
-
-## Resultado
-
-Cuando termines, regresa a:
-
-[[01 - Ficha del Proyecto]]
+| Eje | Clasificación | Nota |
+| --- | --- | --- |
+| Género | Acción | [[01 - Géneros]] |
+| Subgénero | Beat 'em up por hordas con combate de lectura (soulslike ligero) | [[02 - Subgéneros y Combinaciones]] |
+| Plataforma | PC con Windows | [[03 - Plataformas y Consolas]] |
+| Perspectiva | 2.5D, cámara fija inclinada | [[04 - Perspectivas y Cámaras]] |
+| Modo | Un jugador, campaña lineal | [[05 - Modos de Juego]] |
+| Clasificación por edad | Estimada: E10+ / PEGI 7 | [[06 - Clasificaciones y Etiquetas]] |

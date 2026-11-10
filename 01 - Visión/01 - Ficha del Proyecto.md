@@ -1,67 +1,33 @@
-# Ficha del Proyecto
+# Ficha del proyecto
 
-## Descripción de la sección
+| Campo | Valor |
+| --- | --- |
+| Nombre oficial | **Abby's Tower** (`productName` en `ProjectSettings.asset`) |
+| Subtítulo en pantalla | La torre del abismo |
+| Nombre clave | Ascending |
+| Estudio | Estudio 02 |
+| Institución | Universidad Tecnológica de Cancún · Integradora · grupo IDYGS103 |
+| Género | Acción 2.5D: beat 'em up por hordas con combate de lectura tipo soulslike |
+| Plataforma | PC con Windows, ejecutable `AbbysTower.exe` (unos 330 MB) |
+| Motor | Unity `6000.6.4f1`, Universal Render Pipeline `17.6.0` |
+| Entrada | Teclado y mouse; mando |
+| Jugadores | 1 |
+| Duración de la demo | Meta de 15 minutos de principio a fin |
+| Idioma | Español |
+| Versión del juego | `0.1.0` (`bundleVersion`) |
+| Versión del GDD | 1.0.0 (inicio del GDD: 16 de octubre de 2026; cierre: 10 de noviembre de 2026) |
+| Estado | Juego congelado; en pruebas hasta la presentación |
+| Repositorio | `Gabriel-Garcia69/AbbysTower`, rama `animaciones`, commit `bf6203d` |
+| Presentación | 20 de noviembre de 2026, en laptop del equipo a 1920×1080 |
 
-Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien que nunca haya visto el videojuego entienda qué proyecto es y cuál es su estado actual.
+## Equipo
 
-## Información general
+| Integrante | Rol en los créditos del juego (`DanteFinal.cs`) |
+| --- | --- |
+| Rodrigo Herrera | Dirección y programación |
+| Gabriel García | Programación y arte |
+| Francisco Uc | Música y sonido |
+| Ricardo Cetina | Experiencia de usuario |
+| Karla Damaris | Pruebas y experiencia de usuario |
 
-| Campo | Información |
-|---|---|
-| **Nombre del proyecto** | Abby´s Tower |
-| **Nombre clave** | Ascending |
-| **Versión del GDD** | 0.6.0 |
-| **Estado del proyecto** | Concepto / **Preproducción** (diseño, arte y planeación) |
-| **Equipo** | Rodrigo Herrera, Gabriel García, Francisco Uc, Ricardo Cetina, Karla Damaris |
-| **Responsable del proyecto** | Rodrigo Herrera (líder) |
-| **Fecha de inicio** | 2026-10-16 |
-| **Última actualización** | 2026-10-16 |
-| **Repositorio** | Se registrará al iniciar el desarrollo |
-
-## Identidad del videojuego
-
-**Género principal:**  
-Acción / Beat 'em up con combate de estilo soulslike. Ver [[01 - Géneros]].
-
-**Subgéneros:**  
-Soulslike ligero · Pixel art · Combate por hordas con jefe. Ver [[02 - Subgéneros y Combinaciones]].
-
-**Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
-
-**Plataforma objetivo:**  
-PC (demo jugable). Ver [[03 - Plataformas y Consolas]].
-
-**Modo de juego:**  
-Un jugador (demo). Ver [[05 - Modos de Juego]].
-
-**Perspectiva:**  
-2.5D: sprites 2D de pixel art en un espacio 3D, con cámara que sigue al jugador. Ver [[04 - Perspectivas y Cámaras]].
-
-**Clasificaciones y etiquetas adicionales:**  
-Demo académica · Proyecto integrador (materia Integradora, grupo IDYGS103, UT Cancún). Ver [[06 - Clasificaciones y Etiquetas]].
-
-**Tecnología principal:**  
-Unity (C#) · Pixelorama (sprites, paleta DawnBringer 32) · pixelab.ai (apoyo para generar sprites) · Git/GitHub.
-
-## Elevator Pitch
-
-> [!example] ¿Qué es?
-> Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
-
-**Respuesta:** Una joven obligada a ser valiente sube por una torre misteriosa para encontrar a su hermano desaparecido, enfrentando hordas en un combate con espada en pixel art 2.5D donde las sombras avisan cuándo atacar y cuándo defender.
-## Estado actual
-
-- [x] Concepto definido
-- [ ] Alcance inicial definido
-- [ ] Mecánica principal definida
-- [ ] Prototipo funcional
-- [ ] Vertical slice
-- [ ] Producción
-- [ ] Pruebas
-- [ ] Versión final
-
-## Criterio de éxito del proyecto
-
-Presentar el **20 de noviembre de 2026** una demo jugable de **10 a 15 minutos o más**, con muy pocos errores, que muestre el combate, un recorrido por 4 a 5 pisos y un jefe final que termine en cliffhanger.
-
-> **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →
+Detalle de responsabilidades en [[02 - Roles y Responsabilidades]].

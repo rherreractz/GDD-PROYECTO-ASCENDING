@@ -1,30 +1,16 @@
 # Acerca de esta guía
 
-> [!info] Autoría
-> **Ing. Luis Fernando Villafaña Rejón**
+Este GDD describe el juego **como quedó construido**, no como se planeó. Reglas del documento:
 
-## Propósito
+- **Un dato, un lugar.** Cada valor vive en una sola nota y las demás lo enlazan. Los números de combate están en [[02 - Mecánicas]]; los de enemigos, en [[03 - Enemigos y NPC]].
+- **Fuente citada.** Los valores van en `código` junto al archivo de donde salen (`AbbyAttack.cs`, `Abby.prefab`, escena `Cima.unity`).
+- **Textos literales.** Los rótulos de HUD y menús se copian tal como aparecen en pantalla.
+- **Diferencias a la vista.** Donde el juego se aparta del GDD 0.6.0 o donde el código tiene una inconsistencia, se dice en la nota y se reúne en [[03 - Registro de Decisiones]] y [[05 - Seguridad y Riesgos Técnicos]].
+- **Pendiente** marca lo que el código no puede responder (resultados de pruebas con personas, capturas del juego corriendo, proceso de audio final).
 
-Esta guía fue creada para proporcionar una estructura completa, práctica y coherente de **Game Design Document (GDD)** en español.
-
-Está pensada para acompañar al estudiante desde la definición inicial de una idea hasta la producción, pruebas y versión final de un videojuego.
-
-## Principios de la guía
-
-- Explicar cada apartado antes de pedir información.
-- Evitar que el equipo tenga que buscar conceptos fundamentales en fuentes dispersas.
-- Separar claramente género, subgénero, plataforma, perspectiva, cámara, modo de juego y características.
-- Utilizar navegación interna para que el documento funcione como una base de conocimiento.
-- Mantener la documentación útil para tomar decisiones reales durante el desarrollo.
-- Permitir que el GDD crezca o se reduzca según el alcance del proyecto.
-
-## Cómo usarla
-
-1. Comienza en [[00 - Índice]].
-2. Lee la descripción de cada apartado antes de completarlo.
-3. Utiliza las bibliotecas de referencia cuando necesites clasificar o definir conceptos.
-4. Documenta las decisiones importantes y sus razones.
-5. Mantén actualizado el GDD conforme evolucione el videojuego.
-
-> [!quote] Idea central
-> Un GDD no debe ser un documento que se escribe una sola vez. Debe ser una herramienta viva que ayude al equipo a **pensar, decidir, construir y validar** el videojuego.
+| Convención | Significado |
+| --- | --- |
+| `m/s`, `s`, `m` | Unidades de Unity: metros y segundos |
+| Piso N | Número que ve el jugador en la pantalla de carga |
+| `Escena` | Nombre del archivo `.unity` |
+| Modo Normal | Todos los valores se dan en modo Normal salvo que se indique |

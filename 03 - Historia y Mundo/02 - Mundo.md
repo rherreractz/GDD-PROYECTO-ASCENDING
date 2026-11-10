@@ -1,44 +1,33 @@
 # Mundo
 
-## Descripción de la sección
+## La torre
 
-Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, historia, tecnología, conflictos y elementos que hacen coherente el mundo.
+Apareció en 2030. El ejército aseguró el piso 1 en 2031; desde el piso 2 la pólvora dejó de servir y solo funcionan armas canalizadas. Hasta 2035 la humanidad había llegado al piso 15. La expedición de Vargas fue la primera en alcanzar el 20.
 
-## Concepto del mundo
+La torre **copia lugares**: cada piso es un paisaje completo, con cielo propio, sin gente. En el lago del piso 6, quien se asoma ve su casa: *"la torre te muestra lo que extrañas para que te quedes"*.
 
-**Época:** Futuro cercano (la torre aparece en 2030; el discurso del capitán es en 2035).
+## Lugares de la demo
 
-**Lugar:** Una torre misteriosa por pisos, "el Abismo".
+| Lugar | Nombre en pantalla | Qué es |
+| --- | --- | --- |
+| Cala Sombría | CALA SOMBRÍA · Al pie de la torre | Pueblo costero de 73 casas, de noche. La torre está en medio, a 217 m de donde empieza Abby |
+| Piso 20 | PISO 20 · La expedición | Gruta de roca natural con runas en el suelo y un abismo al fondo |
+| Piso 1 | El Pueblo del Risco | Pueblo con río y casas de entramado, vacío |
+| Biblioteca | Pereza · La Biblioteca Dormida | Cuartos con libros "en un lugar donde nadie lee" |
+| Piso 2 | El Puerto de las Mareas | Muelle, barcos amarrados que no zarpan, casas encaladas |
+| Piso 3 | El Valle de las Cascadas | Río que baja por bancales; puentes y campamento |
+| Piso 4 | El Sendero del Acantilado | Prado, playa con barco naufragado, puente largo y faro roto |
+| Piso 5 | La Gruta de Cristal | Caverna inundada con islas, pueblo minero y cristales colgando |
+| Piso 6 | El Lago de los Espejos | Lago en calma que refleja otro cielo |
+| Piso 7 | La Aldea de la Nieve Eterna | Aldea con las ventanas prendidas y nadie adentro |
+| Piso 8 | El borde del abismo | Islas sobre el vacío; aquí espera La Sombra |
 
-**Contexto:** La torre devora a quienes entran; hay expediciones que han fallado.
+## Reglas del mundo
 
-> [!question] Pendiente
-> Reglas de la torre (¿qué es? ¿por qué los pisos repiten la misma base?). Lo que sí está decidido: los enemigos no son humanos.
+- Las criaturas no son humanas y nacen de grietas del abismo.
+- La energía de la torre potencia armas, pero **se queda** en quien la toca con la mano desnuda.
+- El faro del piso 4 se apaga cuando una criatura fuerte anda cerca.
 
-## Historia del mundo
+## Sobre "subir" y "bajar"
 
-### Antes del juego
-
-### Durante el juego
-
-### Después del juego
-
-## Lugares
-
-| Lugar | Descripción | Función jugable | Importancia narrativa |
-|---|---|---|---|
-| Torre (pisos) | Misma base con variación de elementos y colores | Escenario de combate | Núcleo de la historia |
-
-## Facciones
-
-| Facción | Objetivo | Relación con el jugador |
-|---|---|---|
-| | | |
-
-## Coherencia del mundo
-
-- Los enemigos no son humanos.
-- Todos los pisos comparten la base y varían elementos y colores.
-- El límite del área jugable se muestra de forma distinta en cada nivel (visualmente, no en colisión).
-
-> **Navegación:** [[00 - Índice]] · ← [[01 - Premisa y Trama]] · [[03 - Personajes]] →
+El juego es de **ascender**: Abby sube del piso 1 al 8 (nombre clave *Ascending*). Varios textos dentro del juego conservan la redacción del guion original, que hablaba de bajar al abismo ("cuantos más pisos bajaban", "Cuanto más abajo, más fuertes"). Están listados en [[03 - Bugs y Seguimiento]] como texto por unificar.

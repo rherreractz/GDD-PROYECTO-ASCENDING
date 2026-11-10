@@ -1,50 +1,63 @@
-# Sistemas del Juego
+# Sistemas
 
-## Descripción de la sección
+## Hordas (`RoomEncounter.cs`, `DioramaBuilder.Hordas.cs`)
 
-Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate, inventario, IA, diálogo, progresión, economía, misiones, etc.
+| Regla | Valor |
+| --- | --- |
+| Hordas por piso | `4` (la Biblioteca tiene `1`) |
+| Enemigos por horda | `5` puntos de aparición (4 o 6 en algunas arenas de Puerto y Cima) |
+| Enemigos vivos a la vez | Hasta `4`; el resto entra cada `0,45 s` conforme caen |
+| Inicio | Al pisar la arena o acercarse a menos de `7 m` de su marca |
+| Tipo de enemigo | Se toma de la lista del piso en orden cíclico: aparición `i` usa `lista[i mod n]` |
+| Vida | Vida base del tipo × multiplicador del piso × modo de juego |
+| Correa | Los enemigos persiguen hasta `20 m` fuera de la arena |
+| Abandono | Si Abby se aleja, aparece `TE ALEJASTE` y los enemigos vuelven a su guarida |
+| Salida | Se abre al derrotar las 4. Dante solo aparece con las 4 derrotadas; antes muestra `AÚN NO` |
 
-## Inventario de sistemas
+Las hordas se colocan sobre el camino, repartidas de la entrada a la salida y a `16 m` o más una de otra, para que siempre se puedan terminar.
 
-| Sistema | Propósito | Dependencias | Estado |
-|---|---|---|---|
-| Combate | Espada y bloqueo | Controles, vida, IA | Por diseñar |
-| IA de enemigos | Comportamiento de hordas y jefe | Combate, niveles | Por diseñar |
-| Niveles / pisos | Estructura de hordas y jefe | IA, combate | Por diseñar |
-| Cámara | Seguir al jugador en 2.5D | Controles | Por diseñar |
-| Cinemáticas y diálogo | Presentar la historia | Narrativa | Por diseñar |
+## Guía de hordas (`GuiaHordas.cs`)
 
-## Plantilla de sistema
+Un haz de luz morada con aros y runas marca la siguiente horda. El HUD dice `Faltan N hordas: sigue la luz morada` y, al terminar, `¡PISO DESPEJADO!`.
 
-### Nombre
+## Aparición de enemigos
 
-**Objetivo:**
+Cada enemigo sale de una **grieta del abismo**: pozo negro con borde morado, humo y luz. No puede recibir ni hacer daño hasta que termina de subir.
 
-**Entradas:**
+## Aguante y empuje de los enemigos (`TowerEnemy.cs`)
 
-**Procesamiento / reglas:**
+- **Aguante (`poise`):** daño acumulado necesario para interrumpir al enemigo. Con `0`, cualquier tajo lo frena.
+- **Empuje recibido (`knockTaken`):** de `1` (retrocede completo) a `0,08` (casi no se mueve).
 
-**Salidas:**
+## Modos de juego (`Difficulty.cs`)
 
-**Estados posibles:**
+Se eligen en Pausa → Opciones y se guardan entre sesiones.
 
-**Dependencias:**
+| Modo | Vida de enemigos | Velocidad de enemigos | Pausa entre ataques |
+| --- | ---: | ---: | ---: |
+| FÁCIL | `×0,7` | `×0,9` | `×1,3` |
+| NORMAL | `×1` | `×1` | `×1` |
+| DIFÍCIL | `×1,35` | `×1,12` | `×0,8` |
+| PESADILLA | `×1,8` | `×1,25` | `×0,6` |
 
-**Interacciones:**
+> **Inconsistencia conocida:** la tarjeta de cada modo también anuncia `Daño recibido` y `Curación`, pero esos dos multiplicadores no se aplican en el código de `bf6203d`. Ver [[05 - Seguridad y Riesgos Técnicos]].
 
-**Datos que necesita:**
+## Vida entre escenas (`RunState.cs`)
 
-**Datos que genera:**
+La vida con la que Abby sale de un piso es la que tiene al entrar al siguiente. Al morir se borra y el reintento empieza con vida completa.
 
-**Riesgos:**
+## Cámara (`MouseOrbitCamera.cs`, `ZonasCamara.cs`)
 
-**Criterios de aceptación:**
+| Parámetro | Valor |
+| --- | --- |
+| Tipo | Fija, inclinada, sigue a Abby |
+| Campo de visión | `38°` |
+| Distancia | `10 m` |
+| Entrada al piso | Toma aérea que baja hasta Abby |
+| Reposo | Tras `6 s` quieta, la cámara se abre y recorre el paisaje (no en Expedición, Gruta ni Final) |
+| Zonas | Gira unos grados en ciertas zonas de cada mapa |
+| Oclusión | Casas y árboles que tapan a Abby dejan de dibujarse (`OccluderFade.cs`) |
 
-## Relaciones entre sistemas
+## Efectos de impacto
 
-Controles → Combate (ataque, combo, bloqueo) → Vida y stamina → HUD.
-IA de enemigos → Combate → Vida de Abby.
-Niveles → IA (oleadas) y fuentes de curación → Vida.
-Estados del juego → Cinemática, Jugando, Derrota, Cliffhanger.
-
-> **Navegación:** [[00 - Índice]] · ← [[02 - Mecánicas]] · [[04 - Controles]] →
+Congelación breve al conectar (`HitStop.cs`), sacudida de cámara (`CameraShake.cs`), números flotantes de daño y chispas (`CombatFx.cs`).

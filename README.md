@@ -1,38 +1,19 @@
-## PLANTILLA DE GDD UTILIZADA PARA EL DESARROLLO DEL PROYECTO "ASCENDING" POR EL ESTUDIO 02 DEL GRUPO IDYGS103 PARA LA MATERIA DE DESARROLLO DE VIDEOJUEGOS 2026
+# Abby's Tower — GDD 1.0.0
 
-## Autoría
+![Logo](Media/Referencias/logo_torre.png)
 
-**Ing. Luis Fernando Villafaña Rejón**
+**Nombre clave:** Ascending · **Estudio 02** · Integradora, IDYGS103 · Universidad Tecnológica de Cancún
 
-Creación y desarrollo de esta guía integral de GDD en español para la documentación y desarrollo de proyectos de videojuegos.
+Documento cerrado el **10 de noviembre de 2026** sobre la rama `animaciones`, commit `bf6203d` (9 de noviembre de 2026). El juego quedó congelado en ese commit: todo valor de este documento se leyó del código, los prefabs y las escenas de esa versión, y cada nota indica el archivo de donde sale.
 
-## Características
+- [[00 - Índice]]
+- [[00 - Avance jugable]]: recorrido completo de la demo.
+- [[00 - GDD Completo (Para Exportar PDF)]]: todo en un solo archivo.
+- [[02 - Mecánicas]]: valores y fórmulas de combate.
+- [[03 - Enemigos y NPC]]: tabla de enemigos y pelea contra Dante.
+- [[02 - Personajes y Animación]]: sprites y GIF por acción.
+- [[03 - Registro de Decisiones]] y [[04 - Historial de Versiones]].
 
-- Estructura profesional y modular.
-- Cada apartado explica qué debe documentarse.
-- Enlaces internos mediante `[[Wikilinks]]` de Obsidian.
-- Navegación de ida y vuelta entre secciones.
-- Campos preparados para completar.
-- Tablas, diagramas y bloques de información.
-- Separación entre diseño, contenido, arte, audio, UX, tecnología, producción y calidad.
-- Biblioteca integrada de géneros, subgéneros, plataformas, consolas, perspectivas, cámaras, modos de juego y etiquetas.
-- Registro de decisiones y versiones.
-- Orientado a proyectos académicos de desarrollo de videojuegos.
+Se abre como bóveda de Obsidian o con cualquier lector de Markdown que muestre GIF. La referencia vigente es el Markdown; el PDF exportado muestra los GIF como imagen fija.
 
-## Cómo usarlo
-
-1. Copia o mueve esta carpeta dentro de tu bóveda de Obsidian.
-2. Abre `00 - Índice.md`.
-3. Activa el panel de navegación de Obsidian si deseas explorar los enlaces visualmente.
-4. Completa primero la sección **01 — Visión**.
-5. Utiliza [[00 - Biblioteca de Clasificación]] cuando necesites decidir género, subgénero, plataforma, cámara o modo de juego.
-6. Continúa con diseño y sistemas.
-7. Documenta después contenido, experiencia y tecnología.
-8. Utiliza producción y calidad para controlar el desarrollo.
-
-## Importante
-
-No existe un único formato universal de GDD utilizado por todos los estudios. Esta plantilla utiliza una estructura amplia basada en las áreas que normalmente necesitan coordinarse durante el diseño y desarrollo de un videojuego.
-
-El objetivo no es producir documentación por cantidad, sino conseguir que **el equipo pueda entender, implementar, probar y mantener las decisiones del juego**.
-
+Plantilla original: Ing. Luis Fernando Villafaña Rejón. Proyecto y contenidos: Estudio 02.

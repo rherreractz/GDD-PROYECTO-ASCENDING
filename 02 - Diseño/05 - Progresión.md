@@ -1,47 +1,48 @@
 # Progresión
 
-## Descripción de la sección
+No hay niveles de personaje ni mejoras en la ruta: Abby termina con las mismas herramientas con que empieza. La progresión es del **jugador** y del **piso**.
 
-Explica cómo cambia la experiencia desde el inicio hasta el final. La progresión puede afectar al personaje, al mundo, a las habilidades, al contenido o al conocimiento del jugador.
+## Curva por piso
 
-## Progresión general
+| Piso | Escena | Vida de enemigos | Enemigo nuevo | Lista de la horda (en orden cíclico) |
+| --- | --- | ---: | --- | --- |
+| Tutorial | `Expedicion` | `×0,8` | — | Larva (entrenamiento); Larva, Bruto, Larva, Acechador (la oleada) |
+| 1 | `Diorama` | `×1` | Larva del Abismo | Larva |
+| — | `CuartosA` | `×1,05` | — | Larva |
+| 2 | `Puerto` | `×1,15` | Acechador, Bruto | Larva, Acechador, Larva, Bruto |
+| 3 | `Cascadas` | `×1,3` | Embestidor | Larva, Embestidor, Acechador, Bruto |
+| 4 | `Acantilado` | `×1,45` | Guardián | Guardián, Larva, Embestidor, Bruto, Acechador |
+| 5 | `Cueva` | `×1,6` | — | Acechador, Guardián, Embestidor, Bruto |
+| 6 | `Lago` | `×1,75` | Espectro | Espectro, Larva, Guardián, Embestidor |
+| 7 | `Nevado` | `×2,05` | — | Espectro, Guardián, Bruto, Acechador |
+| 8 | `Cima` | `×1,6` | Dante | Espectro, Guardián, Embestidor, Bruto, Acechador |
 
-Describe las etapas principales del juego.
+Fuentes: multiplicador en `DioramaBuilder.Level.cs` (`LevelInfo.hp`) y guardado en cada escena (`RoomEncounter.healthMultiplier`); listas en `DioramaBuilder.Roster`.
 
-1. Inicio: cinemática y tutorial.
-2. Pisos 1 y 2: se enseña el combate base.
-3. Pisos intermedios: nuevos enemigos.
-4. Último piso: jefe final (Dante).
-5. Final de la demo: cliffhanger.
+## Qué aprende el jugador en cada tramo
 
-## Progresión del jugador
+| Tramo | Lección | Cómo la enseña el juego |
+| --- | --- | --- |
+| Tutorial | Mover, saltar, combo, curarse, bloquear | Pasos guiados con Dante; ahí la vida no baja de `1` |
+| Piso 1 | Leer la franja roja | Solo Larvas: `40` de vida, caen con un combo y un tajo |
+| Piso 2 | Bloquear golpes fuertes | El Bruto pega `15` y solo lo frena el tercer tajo |
+| Piso 3 | Moverse de la línea | El Embestidor carga `9,5 m` en línea recta |
+| Piso 4 | Rodear o romper la guardia | El Guardián para de frente lo que no sea tercer tajo o tajo de impulso |
+| Pisos 5 a 7 | Priorizar objetivos | El Espectro dispara de lejos y se teletransporta si te acercas |
+| Piso 8 | Todo junto | Cinco tipos mezclados y Dante |
 
-1. Mover y atacar (piso 1).
-2. Encadenar el combo y leer las sombras.
-3. Bloquear en el momento justo y gestionar la stamina.
-4. Usar la fuente de curación.
-5. Enfrentar al jefe con todo lo aprendido.
+## Golpes necesarios por enemigo (modo Normal)
 
-## Progresión del personaje
+Con el combo `10 / 10 / 15` (35 por combo):
 
-En la demo **no hay mejoras permanentes**: Abby mantiene vida, daño y habilidades durante todo el recorrido. Lo que progresa es el conocimiento del jugador.
+| Enemigo | Piso donde debuta | Vida ahí | Combos completos |
+| --- | --- | ---: | ---: |
+| Larva | 1 | `40` | 2 (cae en el 4.º tajo) |
+| Acechador | 2 | `63` | 2 |
+| Bruto | 2 | `138` | 4 |
+| Embestidor | 3 | `91` | 3 |
+| Guardián | 4 | `138` | 4 |
+| Espectro | 6 | `79` | 3 |
+| Dante | 8 | `768` | 22 |
 
-## Desbloqueos
-
-| Desbloqueo | Requisito | Efecto |
-|---|---|---|
-| | | |
-| | | |
-
-## Curva de dificultad
-
-La dificultad aumenta al introducir un enemigo nuevo por piso (ver Enemigos y NPC).
-
-## Curva de aprendizaje
-
-Piso 1: mover y atacar antes de introducir el bloqueo.
-Piso 2: bloqueo antes de enemigos con golpes fuertes.
-Piso 3: lectura de sombras alargadas (Embestidor).
-Piso 4: rodear enemigos con escudo.
-
-> **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →
+La vida por piso de cada tipo está en [[03 - Enemigos y NPC]].
