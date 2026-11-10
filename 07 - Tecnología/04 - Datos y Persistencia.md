@@ -1,27 +1,51 @@
-# Datos y Persistencia
+# Datos y persistencia
 
-## Descripción de la sección
+## Dónde viven los datos del juego
 
-Define qué información necesita conservar el juego y cómo se estructura.
+El proyecto no usa ScriptableObjects ni archivos de datos externos. Los valores están en tres lugares:
 
-## Datos persistentes
+| Lugar | Qué contiene | Ejemplo |
+| --- | --- | --- |
+| Constantes y campos en código | Reglas de combate y enemigos | `AbbyBlock.DanoRecibido = 0.08f`; el `switch` de `TowerEnemy.Configure` |
+| Prefab | Valores de Abby y su cámara | `Abby.prefab`: `speed: 5`, `jumpHeight: 1.2` |
+| Escena | Hordas, salidas, fuentes y notas colocadas | `RoomEncounter.healthMultiplier`, `FloorExit.nextScene` |
 
-- Configuración de volumen. No hay progreso, inventario ni desbloqueos.
+## Tablas de datos en código
 
-## Modelo de datos
+| Tabla | Archivo | Contenido |
+| --- | --- | --- |
+| `Difficulty.Presets` | `Difficulty.cs` | 4 modos |
+| `DioramaBuilder.Info` | `DioramaBuilder.Level.cs` | Título, subtítulo, siguiente escena y multiplicador de vida por piso |
+| `DioramaBuilder.Roster` | `DioramaBuilder.Level.cs` | Lista de enemigos por piso |
+| `Historia.Relato` | `Historia.cs` | Comentarios de Abby por escena |
+| `Historia.Notas` | `Historia.cs` | Texto final de 7 notas, por identificador |
+| `ZonasCamara.Aperturas` | `ZonasCamara.cs` | Toma de entrada por piso |
+| `IntroImagenes.Guion` | `IntroImagenes.cs` | Imagen, duración y texto de cada paso de la intro |
 
-Datos de enemigos, hordas y valores de combate definidos en un archivo o en el editor (por definir).
+Una sola fuente para los nombres propios: `Historia.Ciudad`, `Historia.Hermano`, `Historia.CapitanNombre`, `Historia.Padre`. Cambiar una constante cambia el nombre en todo el juego.
 
-## Formato
+## Recursos cargados en tiempo de ejecución (`Resources`)
 
-**Formato de guardado:** Por definir.
+| Ruta | Contenido |
+| --- | --- |
+| `AbbyAnim/Tajo1..3/<dirección>` | Cuadros del combo |
+| `EnemigosSprites/<Tipo>/<dirección>` | Reposo de enemigos |
+| `EnemigosAnim/<Tipo>/<Caminar\|Atacar>/<dirección>` | Animaciones de enemigos |
+| `DanteHumano/…`, `ColosoAnim/…`, `Personajes/…` | Personajes de la historia |
+| `Intro/NN_nombre` | Imágenes de la intro, ordenadas por su número |
+| `Fuentes/` | Inter y Press Start 2P |
+| `Audio/Musica_<Pista>`, `Audio/<Efecto>` | Opcional: reemplaza al audio sintetizado |
 
-**Ubicación:** Por definir.
+Convención de direcciones: `south`, `south-east`, `east`, `north-east`, `north`, `north-west`, `west`, `south-west`.
 
-**Versionado de datos:** No aplica.
+## Persistencia
 
-## Migraciones
+Solo `PlayerPrefs`: progreso, modo de juego, volúmenes y vista de cámara. Claves y reglas en [[04 - Guardado y Configuración]].
 
-No aplica: no hay guardados que migrar.
+## Estado en memoria
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Requisitos Técnicos]] · [[05 - Seguridad y Riesgos Técnicos]] →
+| Dato | Clase | Vida |
+| --- | --- | --- |
+| Vida entre pisos | `RunState.SavedHealth` | Hasta morir o cerrar el juego |
+| Notas encontradas | `SecretTracker` | La sesión |
+| Enemigos vivos | `TowerEnemy.All` | El piso |

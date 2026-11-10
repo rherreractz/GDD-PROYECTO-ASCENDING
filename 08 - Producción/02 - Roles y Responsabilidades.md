@@ -1,32 +1,39 @@
-# Roles y Responsabilidades
+# Roles y responsabilidades
 
-## Descripción de la sección
+Estudio 02 · cinco integrantes.
 
-Define quién es responsable de cada área y evita que tareas importantes queden sin dueño.
+| Integrante | Rol | Responsabilidades |
+| --- | --- | --- |
+| **Rodrigo Herrera** | Dirección y programación | Líder del equipo; coordinación y alcance; Cala Sombría y la Biblioteca; revisión de PR; GDD |
+| **Gabriel García** | Programación y arte | Dueño del repositorio; sistemas de combate, enemigos y hordas; generación de pisos; sprites y animaciones; ejecutable |
+| **Francisco Uc** | Música y sonido | Programación; música y efectos finales |
+| **Ricardo Cetina** | Experiencia de usuario | Flujo del jugador, HUD y menús; pruebas con usuarios |
+| **Karla Damaris** | Pruebas y experiencia de usuario | Plan de pruebas, registro de bugs y criterios de aceptación |
 
-## Equipo
+## Matriz por área
 
-| Integrante | Rol principal | Responsabilidades |
-|---|---|---|
-| Rodrigo Herrera | Líder, desarrollador | Coordinación y programación |
-| Gabriel García | Desarrollador y arte | Programación y sprites |
-| Francisco Uc | Desarrollador y música | Programación y audio |
-| Ricardo Cetina | UX | Experiencia de usuario |
-| Karla Damaris | QA y UX | Pruebas y experiencia de usuario |
+R = responsable · A = apoya
 
-## Áreas
+| Área | Rodrigo | Gabriel | Francisco | Ricardo | Karla |
+| --- | :-: | :-: | :-: | :-: | :-: |
+| Dirección y alcance | R | A | | | |
+| Historia y guion | R | A | | | |
+| Combate y enemigos | A | R | | | |
+| Pisos y entornos | A | R | | | |
+| Arte de personajes | | R | | | |
+| Audio | | | R | | |
+| Interfaz y UX | | A | | R | A |
+| Pruebas | | | | A | R |
+| GDD | R | A | | A | A |
+| Tráiler | A | A | A | | |
+| Compilación y entrega | A | R | | | |
 
-- Diseño
-- Programación
-- Arte
-- Animación
-- Audio
-- Narrativa
-- QA
-- Gestión
+## Actividad en el repositorio (rama `animaciones`)
 
-## Responsabilidad
+| Autor | Commits |
+| --- | ---: |
+| Gabriel García | 123 |
+| Rodrigo Herrera | 8 |
+| Otro colaborador | 1 |
 
-Cada entregable importante debe tener una persona responsable de coordinarlo, aunque varias personas participen en su elaboración.
-
-> **Navegación:** [[00 - Índice]] · ← [[01 - Alcance]] · [[03 - Roadmap]] →
+> **Pendiente:** el equipo confirma la matriz. Los roles salen de los créditos del juego; el reparto por área es la mejor lectura del repositorio y de las notas del proyecto, y lo que no pasa por Git (diseño, pruebas, audio, guion) no aparece en el conteo de commits.

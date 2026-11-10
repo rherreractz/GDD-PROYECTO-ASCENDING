@@ -1,57 +1,19 @@
-# Visión del Juego
+# Visión del juego
 
-## Descripción de la sección
+**En una frase:** una chica de 17 años sube sola la torre que se llevó a su hermano, y cada piso le cuenta un poco más de lo que le pasó.
 
-Aquí se define la **idea central** del videojuego. Esta sección funciona como brújula: cuando aparezca una nueva idea, el equipo puede comprobar si realmente pertenece al juego.
+## La experiencia que busca
 
-## Concepto central
+- **Leer antes de pegar.** Todo ataque enemigo se anuncia con una sombra roja en el suelo. El jugador que mira, gana; el que aprieta botones, pierde stamina.
+- **Subir es avanzar en la historia.** Cada piso es un paisaje distinto y trae un comentario de Abby y una hoja del diario de Dante. El combate y la historia avanzan al mismo paso.
+- **Una partida corta y completa.** La demo dura unos 15 minutos y tiene principio, desarrollo y un final que deja la pregunta abierta: "Continuará…".
 
-**El videojuego trata sobre:**
+## Qué lo distingue
 
-Abby sube una torre misteriosa y melancólica, el Abismo que se lo traga todo, para encontrar a su hermano Dante. Cada piso es una prueba de combate donde el jugador debe leer a los enemigos y reaccionar a tiempo.
+- Sprites 2D de pixel art moviéndose en escenarios 3D tipo maqueta, con cámara fija inclinada.
+- El tutorial se juega con Dante el día en que su expedición se perdió, antes de conocer a Abby.
+- El jefe final es la persona a la que Abby vino a buscar, y pelea con el mismo combo que ella.
 
-## Experiencia deseada
+## Tono
 
-Completa:
-
-- **Quiero que el jugador se sienta:** Valiente a pesar del miedo, como Abby.
-- **Quiero que el jugador piense:** "Si leo bien las sombras, puedo ganar."
-- **Quiero que el jugador haga:** Esquivar, defender y contraatacar con precisión.
-- **Quiero que el jugador recuerde:** La historia de Abby y Dante, y la sensación de subir la torre.
-
-## Fantasía del jugador
-
-> [!question] Pregunta clave
-> ¿Qué fantasía estamos permitiendo cumplir al jugador?
-
-**Fantasía elegida:** sentirse como una heroína reticente que sobrevive por su propia determinación.
-
-## Propuesta de valor
-
-Combate ágil y legible, con identidad visual propia en pixel art y una historia emocional detrás de la subida.
-
-## Características principales
-
-Lista las características que definen la experiencia.
-
-1. Combate cuerpo a cuerpo con espada, con ataque y bloqueo.
-2. Sombras en el suelo que anuncian cuándo atacar y cuándo defender.
-3. Torre dividida en pisos con la misma base y variaciones de elementos y colores.
-4. 4 hordas por piso y un jefe final.
-5. Cámara que sigue al jugador en un entorno 2.5D.
-
-## Diferenciadores
-
-Mezcla de sprites pixel art en espacio 3D, estructura de torre por pisos y narrativa de rescate familiar. Referencia de combate: Young Souls.
-
-## Límites del concepto
-
-- No es un juego de mundo abierto.
-- No tiene armas a distancia en esta demo (solo espada).
-- No usa enemigos humanos (complican los sprites).
-- No es el producto final: es una **demo** para un evento escolar.
-- No tiene multijugador.
-
-> Esta sección es especialmente importante para evitar que el proyecto crezca sin control.
-
-> **Navegación:** [[00 - Índice]] · ← [[01 - Ficha del Proyecto]] · [[03 - Público y Plataforma]] →
+Melancólico y cálido más que oscuro. Los pisos tienen luz de atardecer (`AmbienteHistoria.cs`); lo único de noche cerrada es Cala Sombría. La frase que cierra los créditos resume el tono: *"Para los que todavía dejan una luz prendida."*

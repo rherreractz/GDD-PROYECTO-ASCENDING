@@ -1,33 +1,42 @@
-# Requisitos Técnicos
+# Requisitos técnicos
 
-## Descripción de la sección
+## Metas
 
-Define las condiciones técnicas necesarias para ejecutar y desarrollar el videojuego.
+| Meta | Valor |
+| --- | --- |
+| Cuadros por segundo | 60, con sincronía vertical (`LimiteFPS.cs`) |
+| Resolución | 1920×1080 |
+| Tiempo de carga entre pisos | Menos de 1 s |
+| Errores en consola | 0 en toda la ruta |
 
-## Requisitos mínimos
+## Mediciones (4 de noviembre de 2026)
 
-Sistema operativo: Windows 10 de 64 bits.
-CPU: 4 núcleos.
-GPU: gráficos integrados.
-RAM: 8 GB.
-Almacenamiento: 2 GB.
-Resolución: 1920x1080.
-Conexión: no necesaria.
+Ejecutable en la laptop de desarrollo (RTX 5050, 1920×1080), cada escena sin combate:
 
-## Requisitos recomendados
+| Medida | Resultado |
+| --- | --- |
+| Cuadros por segundo sin límite | De 93 a 346 según la escena |
+| Tiempo de carga | De 0,2 a 0,6 s |
+| Memoria reservada | 1 089 MB |
+| En el editor, con 6 enemigos | Unos 57 FPS en los 6 pisos medidos |
 
-La laptop del equipo con la que se presenta la demo.
+Fuente: `PENDIENTE_GDD.md` del repositorio.
 
-## Objetivos de rendimiento
+## Tamaños
 
-**FPS objetivo:** 60.
+| Elemento | Tamaño |
+| --- | --- |
+| Ejecutable | Unos 330 MB |
+| Escena más pesada | `Cascadas.unity`, 58 MB |
+| Escena más ligera | `Menu.unity`, 5 KB (carga los paisajes de otras escenas) |
 
-**Tiempo de carga objetivo:** Menos de 5 segundos por piso.
+## Requisitos estimados
 
-**Memoria máxima:** 2 GB.
+| | Mínimo estimado | Equipo de presentación |
+| --- | --- | --- |
+| Sistema | Windows 10 de 64 bits | Windows 11 |
+| Gráficos | Tarjeta dedicada compatible con DirectX 11 | RTX 5050 |
+| Memoria | 8 GB | — |
+| Disco | 1 GB libre | — |
 
-## Restricciones
-
-Tiempo de desarrollo de unos 22 días y presentación en una sola laptop.
-
-> **Navegación:** [[00 - Índice]] · ← [[02 - Motor y Herramientas]] · [[04 - Datos y Persistencia]] →
+> **Pendiente:** medir el ejecutable **en combate** y en una PC más modesta; completar las características de la laptop de presentación. El mínimo es una estimación, no una medición.

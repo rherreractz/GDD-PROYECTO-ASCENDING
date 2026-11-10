@@ -1,40 +1,41 @@
-# Reglas y Estados del Juego
+# Reglas y estados del juego
 
-## Descripción de la sección
+## Estados de la partida
 
-Define las reglas globales y los estados que puede atravesar el videojuego.
+```mermaid
+stateDiagram-v2
+  [*] --> Menu
+  Menu --> Jugando: Nueva partida / Continuar
+  Jugando --> Pausa: Esc
+  Pausa --> Jugando: Continuar
+  Pausa --> Menu: Salir al menú (pide confirmar)
+  Jugando --> Caida: vida = 0
+  Caida --> Jugando: Enter (reintentar el piso)
+  Caida --> Menu: Esc
+  Jugando --> PisoSuperado: salida abierta
+  PisoSuperado --> Jugando: Enter / Espacio
+  Jugando --> Final: Dante cae
+  Final --> Menu: créditos
+```
 
-## Estados principales
+## Reglas
 
-- Menú principal
-- Carga
-- Jugando
-- Pausa
-- Victoria
-- Derrota
-- Game Over
-- Créditos
+| Regla | Detalle |
+| --- | --- |
+| Victoria del piso | Derrotar las 4 hordas y cruzar la salida. Aparece `¡PISO N SUPERADO!` con tiempo y enemigos derrotados. |
+| Victoria de la demo | Bajar la vida de Dante a `0`. No muere: cae, y la escena `Final` toma el control. |
+| Derrota | Vida en `0`: `Abby cayó.` con `Enter · Reintentar el piso` y `Esc · Menú principal`. |
+| Reintento | Reinicia el piso con vida y stamina completas. Las hordas vuelven a empezar. |
+| Reintento contra Dante | Abby reaparece frente a la arena del jefe con el aviso `Reintenta contra el jefe`; no repite las 4 hordas. |
+| Tutorial | La vida no baja de `1`: no se puede perder. |
+| Caída al vacío | `¡Caíste al vacío!`, `10` de daño y vuelta al último suelo firme. |
+| Pausa | Detiene el juego. `Continuar`, `Opciones`, `Reiniciar piso`, `Salir al menú`. |
+| Guardado | Automático al entrar a cada lugar de la ruta; se borra al terminar. Ver [[04 - Guardado y Configuración]]. |
 
-## Transiciones
+## Estados de una horda
 
-| Estado origen | Evento | Estado destino | Condición |
-|---|---|---|---|
-| Menú principal | Iniciar | Cinemática / Tutorial | Pulsar jugar |
-| Jugando | Vida en 0 | Derrota | Abby derrotada |
-| Derrota | Reintentar | Jugando | Reinicia el piso actual |
-| Cinemática | Termina | Tutorial / Jugando | Cinemática inicial completa |
-| Jugando | Jefe final | Cliffhanger / Fin de la demo | Fin de la historia de la demo |
+`Esperando` → `Combate` → `Limpia`. Si Abby se aleja durante el combate, la horda vuelve a `Esperando`.
 
-## Reglas globales
+## Estados de un enemigo
 
-1. Los enemigos no son humanos.
-2. El bloqueo reduce el daño al 8 %, no da inmunidad.
-3. Bloquear gasta stamina; sin stamina no se puede bloquear.
-4. La vida solo se restaura en las fuentes de curación.
-
-## Casos especiales
-
-Si Abby muere durante el jefe, se reinicia el combate con el jefe.
-La cinemática inicial se puede saltar con una tecla.
-
-> **Navegación:** [[00 - Índice]] · ← [[06 - Economía y Recursos]] · [[01 - Premisa y Trama]] →
+`Apareciendo` (grieta) → `Persiguiendo` → `Aviso` → `Golpe` → `Recuperación` → `Persiguiendo`. Al recibir daño por encima de su aguante pasa a `Interrumpido`.

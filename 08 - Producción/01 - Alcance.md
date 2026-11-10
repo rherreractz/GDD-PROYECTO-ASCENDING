@@ -1,42 +1,54 @@
 # Alcance
 
-## Descripción de la sección
+## Dentro de la demo
 
-Define qué se va a construir y, sobre todo, qué queda fuera del proyecto.
+| Área | Entregado |
+| --- | --- |
+| Personaje jugable | Abby: mover, saltar, combo de 3, bloqueo con stamina, impulso |
+| Tutorial | Prólogo jugable con Dante en el piso 20 |
+| Historia | Intro de 14 imágenes, relato por piso, 18 notas, escena final |
+| Pisos | 8 pisos con 4 hordas, la Biblioteca y Cala Sombría |
+| Enemigos | 6 tipos de horda con sprites y animaciones |
+| Jefe | Dante, con 3 patrones y 2 fases |
+| Interfaz | HUD, menú principal, pausa, opciones, carga, caída y piso superado |
+| Audio | 6 pistas y 16 efectos sintetizados |
+| Sistema | Guardado de progreso, 4 modos de juego, teclado, mouse y mando |
+| Entrega | Ejecutable de Windows |
 
-## Alcance de la versión objetivo
+## Fuera de la demo (decidido)
 
-### Incluido
+| Elemento | Motivo |
+| --- | --- |
+| Armas a distancia y armas futuristas | Un solo sistema de combate bien terminado |
+| Enemigos humanos | Costo de sprites |
+| Mercader, cofres, minerales y mejoras | El GDD 0.6.0 pide "solo notas" |
+| Jefes de piso (4 con sprites listos) | El GDD pide un único jefe: Dante |
+| Arquero y Torbellino | Sin sprite |
+| Cuartos de Gula, Avaricia y Envidia | Tiempo; queda la Biblioteca |
+| Parry | Se sustituyó por la esquiva perfecta |
+| Animación propia de bloqueo y de golpe recibido | Se resuelven con pose y tinte |
+| Paleta DawnBringer 32 | El arte final no la sigue |
+| Reasignación de teclas, otros idiomas | Tiempo |
 
-- Combate con espada y bloqueo.
-- Entre 6 y 8 tipos de enemigo (incluyendo variantes).
-- 4 a 5 pisos con la misma base.
-- Jefe final: Dante.
-- Final en cliffhanger.
-- Cinemática inicial y tutorial.
+## Cambios de alcance respecto al GDD 0.6.0
 
-### No incluido
+| Tema | GDD 0.6.0 | Demo |
+| --- | --- | --- |
+| Pisos | 5 | 8 |
+| Guardado | Sin guardado | `Continuar` |
+| Orden del inicio | Cinemática → Tutorial | Tutorial → Cinemática |
+| Movimiento | Sin salto ni impulso | Con salto e impulso (el impulso gasta `20` de stamina) |
+| Lugares | Solo pisos | Además Cala Sombría y la Biblioteca |
+| Final | En el piso del jefe | Escena propia |
+| Cámara | Fija | Fija, con tomas de entrada y cámara libre `F3` |
 
-- Armas a distancia o futuristas.
-- Multijugador.
-- Mundo abierto.
-- Enemigos humanos.
-- Contenido más allá de la demo.
+Motivo de cada uno en [[03 - Registro de Decisiones]].
 
-## MVP
+## Entregables del proyecto, además del juego
 
-El **Producto Mínimo Viable** debe contener únicamente lo necesario para demostrar que la experiencia principal funciona.
-
-**MVP del proyecto:** Un piso completo, de 4 hordas, con el combate (ataque y bloqueo) funcionando. Después se agrega el jefe final y el resto de pisos.
-
-## Vertical Slice
-
-El primer piso con arte final, combate pulido y su jefe.
-
-## Criterios de recorte
-
-1. Variantes extra de enemigos.
-2. Pisos adicionales.
-3. Cinemática.
-
-> **Navegación:** [[00 - Índice]] · ← [[05 - Seguridad y Riesgos Técnicos]] · [[02 - Roles y Responsabilidades]] →
+| Entregable | Estado |
+| --- | --- |
+| GDD | Esta versión |
+| Tráiler de 40 s máximo | En storyboard |
+| App móvil complementaria | En desarrollo |
+| PWA del torneo (UT Game Showcase) | En desarrollo |
